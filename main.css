@@ -68,12 +68,19 @@ section img {
 .Contato {
   display: inline;
   
+  
 }
 
 .container_form {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+}
+.container_form button {
+  color: #843951;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 form input,
 form textarea,
@@ -83,6 +90,11 @@ form button {
   margin-bottom: 8px;
   padding: 8px;
   
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
 }
 
 
