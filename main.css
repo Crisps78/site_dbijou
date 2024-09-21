@@ -67,5 +67,24 @@ section h1 {
 section img {
     margin: 30px;
 }
+.Contato {
+  display: inline;
+  
+}
+
+.container_form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+form input,
+form textarea,
+form button {
+  display: flex;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+  
+}
 
 
